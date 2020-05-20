@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: oauth
+    password: p4RTLbMbJjFaxa6n
+##开始日志
+#logging:
+#  level:
+#    com.hunmengwl.oauth: debug

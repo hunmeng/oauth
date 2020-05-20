@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+##开始日志
+  jpa:
+    show-sql: true
+#logging:
+#  level:
+#    com.hunmengwl.oauth: debug

@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: test
+  application:
+    name: spring-boot-jpa-hikari
+  jpa:
+    database: mysql
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/oauth?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: true
+      minimum-idle: 2
+      idle-timeout: 60000
+      connection-timeout: 30000
+      max-lifetime: 1800000
+      pool-name: DatebookHikariCP
+      maximum-pool-size: 5
+##开始日志
+#logging:
+#  level:
+#    com.hunmengwl.oauth: debug

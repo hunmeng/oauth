@@ -1,7 +1,6 @@
 package com.hunmengwl.oauth.controller;
 
-import com.hunmengwl.oauth.service.LockService;
-import lombok.extern.log4j.Log4j;
+import com.hunmengwl.oauth.service.ILockService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LockController {
 
     @Autowired
-    private LockService lockService;
+    private ILockService lockService;
 
     @RequestMapping("/lock")
     public String lock(String user) {

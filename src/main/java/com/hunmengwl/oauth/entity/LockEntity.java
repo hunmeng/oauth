@@ -7,6 +7,9 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * @author hunemng
+ */
 @Entity
 @Data
 @EntityListeners(AuditingEntityListener.class)

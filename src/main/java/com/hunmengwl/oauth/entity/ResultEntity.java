@@ -4,6 +4,9 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+/**
+ * @author hunmeng
+ */
 @Entity
 @Data
 public class ResultEntity {

@@ -8,9 +8,17 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * @author hunemng
+ */
 @Repository
 public interface LockRepository extends JpaRepository<LockEntity,Long> {
 
+    /**
+     * 根据value值查询
+     * @param value
+     * @return
+     */
     List<LockEntity> findByValue(String value);
 
 }

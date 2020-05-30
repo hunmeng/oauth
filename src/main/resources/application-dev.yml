@@ -1,5 +1,6 @@
 spring:
   datasource:
+    url: jdbc:mysql://127.0.0.1:3307/oauth?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: oauth
     password: p4RTLbMbJjFaxa6n
 ##开始日志

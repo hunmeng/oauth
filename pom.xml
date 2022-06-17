@@ -18,7 +18,7 @@
 		<java.version>1.8</java.version>
 		<httpClient.version>4.5.6</httpClient.version>
 		<mybatis.version>2.1.1</mybatis.version>
-		<fastjson.version>1.2.62</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 		<druid.version>1.1.9</druid.version>
 		<ojdbc7.version>12.1.0.2</ojdbc7.version>
 		<commons-io.version>2.6</commons-io.version>
